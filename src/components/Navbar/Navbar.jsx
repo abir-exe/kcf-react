@@ -2,7 +2,7 @@ import logo from "../../../public/images/Kagu.png"
 
 const Navbar = () => {
     return (
-        <div className="border-b pb-2 md:sticky md:top-0 bg-white">
+        <div className="border-b pb-2 md:sticky md:top-0 z-10 bg-white">
             <nav className="py-3">
             <div className="flex justify-between items-center">
                 <div className="">
