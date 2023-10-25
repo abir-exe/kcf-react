@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 const WhatWeDo = () => {
   return (
     <div id="wwd" className=" px-5 my-32">

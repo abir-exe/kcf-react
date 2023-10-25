@@ -2,7 +2,7 @@ import Marquee from "react-fast-marquee";
 
 const OurClients = () => {
     return (
-        <div className="my-40 w-11/12 mx-auto">
+        <div className="my-40">
             <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-20 py-5 font-bold">Our Clients</div>
             <Marquee>
             <div className="flex space-x-20">

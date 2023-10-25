@@ -11,7 +11,7 @@ import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 
 const Home = () => {
     return (
-        <div id="home" className="md:relative">
+        <div id="home" className="md:relative max-w-[1360px] mx-auto">
             <Navbar></Navbar>
             <Header></Header>
             <WhatWeDo></WhatWeDo>
