@@ -25,10 +25,10 @@ const Slider = () => {
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
-      <SwiperSlide><img src="../../../public/images/japan.jpg" style={{width: "100%" }} alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../../public/images/teamwork.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../../public/images/build.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
-      <SwiperSlide><img src="../../../public/images/teamwork.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/ZXcQJs0/japan.jpg" style={{width: "100%" }} alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/zmtntG8/teamwork.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/jHYFcYj/build.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
+      <SwiperSlide><img src="https://i.ibb.co/zmtntG8/teamwork.jpg" style={{width: "100%"  }} alt="" /></SwiperSlide>
       
     </Swiper>
         </div>

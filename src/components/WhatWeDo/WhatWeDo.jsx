@@ -1,10 +1,10 @@
 const WhatWeDo = () => {
   return (
-    <div className=" px-5 my-32">
+    <div id="wwd" className=" px-5 my-32">
       <div className="hero min-h-full bg-base-100 rounded-xl">
         <div className="flex items-center flex-col lg:flex-row">
           <img
-            src="../../../public/images/wwa.jpg"
+            src="https://i.ibb.co/Vv8BfBz/wwa.jpg"
             className="max-w-sm rounded-lg shadow-2xl"
           />
           <div className=" ml-5">

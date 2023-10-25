@@ -14,8 +14,8 @@ const ContactUs = () => {
   }
 
   return (
-    <div className="">
-      <section id="cu" className="mt-12 h-screen px-5">
+    <div id="cus" className="">
+      <section id="cu" className="mt-12 px-5">
         <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">
           Contact Us
         </div>
@@ -36,7 +36,7 @@ const ContactUs = () => {
             <input
               name="Name"
               type="text"
-              placeholder="Type here"
+              placeholder="Your Name"
               className="input input-bordered w-full max-w-xl"
               maxLength={256}
               required
@@ -56,7 +56,7 @@ const ContactUs = () => {
             <input
               name="Email"
               type="email"
-              placeholder="Type here"
+              placeholder="Your Email"
               className="input input-bordered w-full max-w-xl"
               maxLength={256}
               required
@@ -76,7 +76,7 @@ const ContactUs = () => {
             </label>
             <input
               name="Subject"
-              placeholder="Type here"
+              placeholder="Subject"
               className="input input-bordered w-full max-w-xl "
               maxLength={256}
               required
@@ -96,7 +96,7 @@ const ContactUs = () => {
             </label>
             <textarea name="Message"
               type="text"
-              placeholder="Type here" className="textarea textarea-bordered textarea-lg w-full max-w-sm" maxLength={2000}
+              placeholder="your message(maximum limit = 2000 words)" className="textarea textarea-bordered textarea-lg w-full max-w-full" maxLength={2000}
               onChange={handleInputChange}
               required ></textarea>
             <label className="label">

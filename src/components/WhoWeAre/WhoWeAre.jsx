@@ -1,13 +1,13 @@
 const WhoWeAre = () => {
   return (
-    <div>
+    <div id="wwa" className="mt-20 md:mt-0">
       <section className="mt-24 w-10/12 mx-auto">
         <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mb-12 py-5 font-bold">
           Who We Are
         </div>
 
         {/* <!-- card container  --> */}
-        <div className="grid grid-cols-3  gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3  gap-8">
           <div className="rounded-xl card-compact  bg-base-100 shadow-xl">
             <figure>
               <img
