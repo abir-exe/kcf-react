@@ -12,7 +12,7 @@ const OurClients = () => {
                 <img className="w-full h-20" src="https://i.ibb.co/LtLLQs5/acmeslogo.png" alt="" />
                 <img className="w-full h-20" src="https://i.ibb.co/JvDj4T3/incepta-logo-559225-A536-seeklogo-com.png" alt="" />
             </div>
-
+  
             </Marquee>
         </div>
     );
