@@ -1,4 +1,4 @@
-import logo from "../../../public/images/Kagu.png"
+import logo from "../../../public/images/Kagu (1).png"
 
 const Navbar = () => {
     return (
